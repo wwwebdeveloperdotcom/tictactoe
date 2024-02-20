@@ -1,3 +1,9 @@
+.item {
+  flex: 1;
+  text-align: center;
+  align-self: center;
+}
+
 .game-board {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -5,13 +11,6 @@
   width: 300px;
   margin: 0 auto;
   margin-top: 50px;
-}
-
-.item {
-  flex: 1;
-
-  text-align: center;
-  align-self: center;
 }
 
 .cell {
