@@ -1,0 +1,109 @@
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.item {
+  flex: 1;
+
+  text-align: center;
+  align-self: center;
+}
+
+.cell {
+  font-family: "Roboto Serif", serif;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 60px;
+  height: 70px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.message {
+  display: flex;
+
+  font-family: "Roboto Serif", serif;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 30px;
+  background: whitesmoke;
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.cell.winning-cell {
+  background-color: lightgreen;
+}
+
+.restB {
+  text-align: center;
+}
+
+.reset-button {
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px 30px;
+  background: #000;
+  color: #fff;
+  font-weight: normal;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Roboto Serif", serif;
+}
+
+.reset-button:hover {
+  padding: 10px 30px;
+  background: white;
+  color: black;
+  transition: 0.5s;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.score {
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.score span {
+  padding: 7px;
+  font-family: "Roboto Serif", serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.draws {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.reset-score-button {
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px 30px;
+  background: #000;
+  color: #fff;
+  font-weight: normal;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Roboto Serif", serif;
+}
+
+.reset-score-button:hover {
+  padding: 10px 30px;
+  background: white;
+  color: black;
+  transition: 0.5s;
+  border: 1px solid black;
+  border-radius: 7px;
+}
